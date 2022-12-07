@@ -1,0 +1,13 @@
+{"name": "سورس تليثون العرب سكالينجو","description": "تنصيب سورس تليثون العرب مجانا على منصة سكالينجو","addons": ["scalingo-postgresql"],"keywords": ["userbot","scalingo","iqyhon"],"repository": "https://github.com/iqhelp/iqhelp","stack": "container",
+    "env": {
+        "ALIVE_NAME": {"description": "ضع هنا اسم حسابك على التليجرام","required": true,"value":""},
+        "APP_ID": {"description": "ضع هنا الايبي ايدي","required": true,"value":""},
+        "API_HASH": {"description": "ضع هنا الايبي هاش","required": true,"value":""},
+        "STRING_SESSION": {"description": "هنا ضع كود تيرمكس","required": true},
+        "TG_BOT_TOKEN": {"description": "ضع توكن البوت", "required": true, "value":"" },
+        "TG_BOT_USERNAME": {"description": "ضع يوزر البوت بدون @", "required": true, "value":"" },
+        "TZ": {"description": "ضع هنا المنطقة الزمنيه الخاصه بك القارة وعاصمه بلدك","required": true,"value": "Asia/Baghdad"},
+        "ENV": {"description": "لاتغيرة" , "required": true,  "value": "ANYTHING"},
+        "UPSTREAM_REPO": {"description": "لاتغيرة" , "required": false,  "value": "TelethonAr"},
+        "buildpacks": [{"url": "https://github.com/Scalingo/python-buildpack"},{"url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"}]
+    }}
