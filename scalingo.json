@@ -9,5 +9,6 @@
         "TZ": {"description": "ضع هنا المنطقة الزمنيه الخاصه بك القارة وعاصمه بلدك","required": true,"value": "Asia/Baghdad"},
         "ENV": {"description": "لاتغيرة" , "required": true,  "value": "ANYTHING"},
         "UPSTREAM_REPO": {"description": "لاتغيرة" , "required": false,  "value": "TelethonAr"},
-        "buildpacks": [{"url": "https://github.com/Scalingo/python-buildpack"},{"url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"}]
     }}
+"buildpacks": [{"url": "https://github.com/Scalingo/python-buildpack"},{"url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"}]
+}
