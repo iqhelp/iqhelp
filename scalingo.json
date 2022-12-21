@@ -5,7 +5,7 @@
         "API_HASH": {"description": "ضع هنا الايبي هاش","required": true,"value":""},
         "STRING_SESSION": {"description": "هنا ضع كود تيرمكس","required": true},
         "TG_BOT_TOKEN": {"description": "ضع توكن البوت", "required": true, "value":"" },
-        "TG_BOT_USERNAME": {"description": "ضع يوزر البوت بدون @", "required": true, "value":"" },
+        "TG_BOT_USERNAME": {"description": "حط يوزر بوتك بعد حيلي @", "required": true, "value":"" },
         "TZ": {"description": "ضع هنا المنطقة الزمنيه الخاصه بك القارة وعاصمه بلدك","required": true,"value": "Asia/Baghdad"},
         "ENV": {"description": "لاتغيرة" , "required": true,  "value": "ANYTHING"},
         "UPSTREAM_REPO": {"description": "لاتغيرة" , "required": false,  "value": "TelethonAr"},
